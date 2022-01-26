@@ -1,0 +1,62 @@
+/*
+***************************Display***********************************
+inline ---> it will let the width to change also allow other element to come in its path
+block ----> it will not let the width to change also not  allow other element to come in its path it block and consume whole 
+inline-block ---> it will let the width to change also allow other element to come in its path
+
+
+*********************Positioning***************************
+static position ----> its default 
+relative position --> four coordinate left,top,bottom,right . it never effect the position of other element it will overlap and visible & it measure its position from current position
+Absolute position --> four coordinate left,top,bottom,right . it effect the position of other element it will overlap & it measure its position from parent element
+
+/* CSS --> Cascading Style Sheets */
+
+/* 3 types --> Inline , Internal , External  */
+
+/* id called  with # id name
+class called by .class name  
+both can overwrite tag properties if applied like h1 or hr ,e.t.c
+one name id or class can be used only once in page but there can be many id or class
+in 1 class there can be many properties like ex- class(prashant edu ) but id can have only one ex- id(prashant edu ) id (prashant edu) is wrong 
+class for group of element 
+id for single element 
+*/
+
+/* 
+selector { property : value;}
+here selector is who u want to change 
+property is what changes u want to make 
+value how u want to make change by what value 
+*/
+
+body{
+    background-color: rgb(191, 238, 238);
+}
+hr{
+    /* background-color: white; */
+    /* border: none; */
+    /* height: 0px; */
+    width: 10%; /* or*/
+    /* width: 30px; */
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 10px;
+}
+
+h2
+{
+    color: teal;
+}
+h3
+{
+    color: teal;
+}
+.contct{
+    font-size: 30px;
+}
+
+.cim{
+    size: 20px;
+}
