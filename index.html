@@ -1,89 +1,341 @@
-<html>    <!-- tells browser all abt html contain -->
-    <head>      <!-- heading from 1 to 6  & h1 heading of level 1 most bigger smaller is h6  -->
-        <title>My web page</title>  <!-- tells browser all abt  title  -->
-        <!-- 
-        <style>  
-        /* internal css start  from style */
-            body{
-                background-color: rgb(126, 213, 213);
-            }
-            hr{
-                /* background-color: white; */
-                /* border: none; */
-                /* height: 0px; */
-                width: 10%; /* or*/
-                /* width: 30px; */
-                border-style: none;
-                border-top-style: dotted;
-                border-color: gray;
-                border-width: 15px;
-            }
-            /* internal css end at style  */
-            </style>
-              
-            -->
-            <!-- linking external css  -->
-            <link rel="stylesheet" href="/My Coding Journey/Web Development/CSS/1st.css">
-    </head>
-    <body >  <!-- All Content Of HTML-->
-        <img src="1.png" alt="not available" height="100px" width="100px">
-        <hr>
-        <h1>Prashant Kumar</h1> <!-- heading tag its upto 6  -->
-        <p><em>Founder of TpTe Organization <strong>LPUian</strong></em></p>
-        <p>I'm a web Developer. I love coffee and coding.</p> <!-- paragraph tag for 1 paragraph -->
-        <hr>
-        <!-- &nbsp for space between two word  --> 
-        <h2><a href="my_hobbies.htm">My Hobbies</a></h2>
-        <ol>        <!-- order list can  be nested -->
-            <li>Coding </li> <!-- list item tag -->
-            <li>Social Media </li>
-            <li>Reading Cyber News </li>
-        </ol >
-        <hr >
-        <h2>Skills</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Prashant</title>
+</head>
+<body>
+    <!-- Home Page start -->
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div id="header">
+        <!-- nav start -->
+        <div class="con">
+            <nav>
+                <div class="logo">
+                    Prashant <span>Kumar</span>
+                </div>
+                
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <!-- nav end -->
+
+        <!-- body start -->
+        <div class="body">
+            <div class="body_content_txt">
+                    <div class="header_text">
+                        <h6>Hi There🙋‍♂️ I'm </h6>
+                    <h1><span>P</span>rashant <span>K</span>umar <br> <span>F</span>ull <span>S</span>tack <span>W</span>eb <span>D</span>eveloper</h1>
+                </div>
+                <!-- /* Text main float start Developer Designer Photographer  start */ -->
+                <div class="Home_abt">
+                    <!-- /* Text main float start Developer Designer Photographer  start */ -->
+                    <div class="text_animation_home">
+                        <div class="text_anime">
+                            <div class="fix_text_anime">I'm a</div>
+                            <div class="animation_text_anime">
+                            <li><span>Developer</span></li>
+                            <li><span>Designer</span></li>
+                            <li><span>Photographer</span></li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /* Text main float start Developer Designer Photographer  start */ -->
         
-    <!-- Table  Start-->
-    <!-- table can be nested color can be implemented  -->
-    <!-- background image can be applied on row coln whole table wherever -->
-    <!-- nowrap for putting sentence in one line  -->
+        
+                    <!-- Home About start -->
+                    <div class="hmabt">
+                        <h5><span>B</span>ring Your <span>B</span>rand to <span>L</span>ife <span>W</span>ith my Help </h5>
+                        <!-- <h5>Bring Your Brand to Life With my Help</h5> -->
+                    </div>
+                </div>
+                <!-- Home About close -->
+            </div>
+                <div class="img">
+                    <img src="Image/prashant12.jpg" alt="x" width="400px" height="500px">
+                </div>
+        </div>
 
-        <table cellspacing="10">  <!-- table begin-->
-            <tr>
-                <td>C Language</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Python Language</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>DSA</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-        </table>  <!-- table end-->
+        <!-- social_email start -->
+        <div class="social_email">
+                  <!--Social share btn start-->
+          <div class="share_btn">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/prashantkumar89" target="_blank"> 
+                  <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            <li>
+              <a href="https://github.com/Prashantkry" target="_blank">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+                <a href="https://www.hackerrank.com/prashantkry89" target="_blank">
+                  <i class="fa-brands fa-hackerrank" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/prashant_photo_graphy__?igshid=YmMyMTA2M2Y=" target="_blank">
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+          <!--Social Share button end -->
+            <!--Email btn start-->
+                <div class="email_btn">
+                    <div class="email">prashantkry745@gmail.com</div>
+                  </div>
+            <!--Email button end -->
+        </div>
+        <!-- social_email end -->
 
-        <!-- table  -->
-        <hr>
-        <h2>Education</h2>
-        <table border="1px" cellspacing="5">  <!-- table begin-->
-            <tr>        <!-- table row -->
-                <th>Years</th>   <!-- table head -->
-                <th>Education</th>
-            </tr>
-            <tr>
-                <td>2016</td>   <!-- table data -->
-                <td>X</td>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td>XII</td>
-            </tr>
-        </table>   <!-- table end-->
-        <hr>
-            <!-- Adding of Link -->
-        <h2>Sites i visit</h2>
-        <a href="https://www.youtube.com/">YouTube</a><br>  <!-- br tag for breaking line -->
-        <a href="https://www.programiz.com/">Programiz</a>
-        <h2><a href="contact.html">Contact me </a></h2>
-    </body>
+
+
+
+        <!-- body end -->
+    </div>
+
+    <!-- Home Page end -->
+
+
+    <!-- About start -->
+    <div id="about">
+        <div class="con">
+            <div class="row">
+                <div class="abt_col_1">
+                    <img src="Image/p1 - Copy.jpg" alt="X" weight="150px" height="490px">
+                </div>
+                <div class="abt_col_2">
+                    <h1 class="title1">About Me</h1>
+                    <p>
+                        My work lives in a digital environment and is nurtured by the love of designing and developing. <br>
+                        By combining my creativity and skills I create interactive pages and add a life for websites.   <br>
+                        I draw my inspiration from the madness of daily designing and building <br> it going through on contemporary bugs and everlasting love for developing.
+                    </p>
+                    <div class="tab_titles">
+                        <p class="tab_links active_link" onclick="OpenTab('Skills')">Skills</p>
+                        <p class="tab_links" onclick="OpenTab('Experience')">Experience</p>
+                        <p class="tab_links" onclick="OpenTab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab_content active_tab" id="Skills">
+                        <!-- <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Competitive Programmer</span><br></li>
+                        </ul> -->
+                        <div class="skills_Pro">
+                            <div class="skill_progress">
+                              <div class="skill_progress-name">React Js</div>
+                              <div class="skill_progress-bar">
+                                <div class="skill_progress-per" per="75"></div>
+                              </div>
+
+                              <div class="skill_progress">
+                                <div class="skill_progress-name">HTML & CSS</div>
+                                <div class="skill_progress-bar">
+                                  <div class="skill_progress-per" per="95"></div>
+                                </div>
+                              </div>
+
+                              <div class="skill_progress">
+                                <div class="skill_progress-name">JavaScript</div>
+                                <div class="skill_progress-bar">
+                                  <div class="skill_progress-per" per="55"></div>
+                                </div>
+                              </div>
+
+                              <div class="skill_progress">
+                                <div class="skill_progress-name">C++</div>
+                                <div class="skill_progress-bar">
+                                  <div class="skill_progress-per" per="75"></div>
+                                </div>
+                              </div>
+
+                              <div class="skill_progress">
+                                <div class="skill_progress-name">DSA</div>
+                                <div class="skill_progress-bar">
+                                  <div class="skill_progress-per" per="85"></div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="tab_content" id="Experience">
+                        <ul>
+                            <li><span>Experience of making Project</span><br>In HTML CSS Js React and Node Js <br>1 Year</li>
+                        </ul>
+                    </div>
+                    
+
+                    <div class="tab_content" id="Education">
+                        <ul>
+                            <li><span>Graduation</span><br>8.3 cgpa <span class="line">|</span> 2024</li>
+                            <li><span>Intermediate</span><br>62% <span class="line">|</span> 2020</li>
+                            <li><span>Matriculation</span><br>9.4 cgpa <span class="line">|</span> 2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About end -->
+
+
+    <!-- Services Start -->
+    <div id="service">
+        <div class="conainer">
+            <h1 class="subTitle">My Services</h1>
+            <div class="servicesList">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium excepturi minima tempora officiis, iure perferendis corrupti nobis ullam voluptatum.</p>
+                    <a href="#">Learn More </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium excepturi minima tempora officiis, iure perferendis corrupti nobis ullam voluptatum.</p>
+                    <a href="#">Learn More </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Coding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium excepturi minima tempora officiis, iure perferendis corrupti nobis ullam voluptatum.</p>
+                    <a href="#">Learn More </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services end -->
+
+
+    <!-- My Work Start -->
+    <section id="portfolio">
+        <div class="con">
+            <h1 class="subTitle">
+                My Work
+            </h1>
+
+            <div class="work_list">
+                <div class="work">
+                    <img src="Image/cc1.jpg" alt="X">
+                    <div class="layer">
+                        <h1>Classy Curve</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum libero culpa exercitationem possimus tempore officiis!</p>
+                        <a href="https://prashantkry.github.io/Classy-Curve/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/cc1.jpg" alt="X">
+                    <div class="layer">
+                        <h1>Classy Curve</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum libero culpa exercitationem possimus tempore officiis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/cc1.jpg" alt="X">
+                    <div class="layer">
+                        <h1>Classy Curve</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum libero culpa exercitationem possimus tempore officiis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+    <!-- My Work End -->
+
+
+
+
+    <!-- Contact Start -->
+    <section id="contact">
+        <div class="con">
+            <div class="row">
+                <div class="contact_left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-location-dot"></i> Address: LPU BH3 Grand Trunck Road phagwara</p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: +91 7991132070</p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: Prashant@gmail.com</p>
+                    <div class="social_icon">
+                        <a href="#"><i class="fa-brands fa-github"></i></i></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a id="cv" href="Prashant.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact_right">
+                    <form action="mailto:prashantkry745@gmail.com">
+                        <input type="text" name="nm" id="nm" placeholder="Your Name" required>
+                        <input type="email" name="em" id="em" placeholder="Your Email" required>
+                        <textarea name="ta" id="ta" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Prashant Kumar  2023</p>
+        </div>
+    </section>
+    <!-- Contact End -->
+    <script src="js.js"></script>
+
+
+    <script>
+        var sideMenu=document.getElementById("sideMenu")
+        function openmenu(){
+            sideMenu.style.right='0'
+        }
+        function closemenu(){
+            sideMenu.style.right="-300px"
+        }
+    </script>
+
+<!--  skills -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(".skill_progress-per").each(function() {
+          var $this = $(this);
+          var per = $this.attr("per");
+          $this.css("width", per + "%");
+          $({ animatedValue: 0 }).animate(
+            { animatedValue: per },
+            {
+              duration: 1000,
+              step: function() {
+                $this.attr("per", Math.floor(this.animatedValue) + "%");
+              },
+              complete: function() {
+                $this.attr("per", Math.floor(this.animatedValue) + "%");
+              }
+            }
+          );
+        });
+    </script>
+</body>
 </html>
