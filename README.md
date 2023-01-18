@@ -1,2 +1,3 @@
 # My-Portfolio
-My 1st Website 
+-> It is made using HTML CSS Js 
+-> It carry all details abt me 
