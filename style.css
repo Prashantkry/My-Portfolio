@@ -113,13 +113,13 @@ nav ul li a:hover::after{
 .header_text h1 span{
     font-family: 'Lavishly Yours', cursive;
     font-size: 4rem;
-    -webkit-text-stroke: .2px rgb(237, 21, 21);
+    -webkit-text-stroke: .2px rgb(15, 157, 233);
     color: transparent;
 }
 .header_text h1{
     /* border: 1px solid rgb(128, 122, 0); */
     font-size: 2.5rem;
-    color: rgb(219, 92, 92);
+    color: rgb(19, 130, 205);
     font-family: 'Crimson Text', serif;
 }
 .header_text h6{
